@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <h1 role="heading">Mohammad Kaif - Portfolio</h1>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <img role="img" src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg" alt="Profile picture of Mohammad Kaif" width="200">
+
+  <p>
+    Hello! I’m Mohammad Kaif, a web developer passionate about creating accessible and user-friendly websites.
+  </p>
+
+  <h2 id="projects">My Projects</h2>
+  <ul role="list">
+    <li role="listitem">ElderlyCare – Medical alert and QR-based system</li>
+    <li role="listitem">Food Delivery – Responsive web app</li>
+    <li role="listitem">Portfolio Website – Personal project</li>
+  </ul>
+
+  <p id="contact">
+    Contact me at: <a href="mailto:mohdkaif90275@example.com">mohdkaif90275@example.com</a>
+  </p>
 
 </body>
-
 </html>
